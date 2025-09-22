@@ -213,7 +213,7 @@ ng build --configuration=production
 
 ## 💬 Support
 
-- 📧 Email: dietschyjulien@gmail.com(mailto:your.email@domain.com)
+- 📧 Email: dietschyjulien@gmail.com
 
 ---
 
