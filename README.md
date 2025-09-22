@@ -7,7 +7,7 @@
 **Une application de suivi de temps moderne et élégante pour développeurs**
 
 [![Symfony](https://img.shields.io/badge/Symfony-6.4-000000?style=flat-square&logo=symfony)](https://symfony.com)
-[![Angular](https://img.shields.io/badge/Angular-17-DD0031?style=flat-square&logo=angular)](https://angular.io)
+[![Angular](https://img.shields.io/badge/Angular-21-DD0031?style=flat-square&logo=angular)](https://angular.io)
 [![API Platform](https://img.shields.io/badge/API%20Platform-3.2-38A3A5?style=flat-square&logo=api)](https://api-platform.com)
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?style=flat-square&logo=php)](https://php.net)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
@@ -40,9 +40,8 @@ TimeTracker est une application web moderne de suivi de temps conçue pour les d
 - **PostgreSQL** - Base de données production
 
 ### Frontend  
-- **Angular 17** - Framework frontend moderne
+- **Angular 21** - Framework frontend moderne
 - **TypeScript** - Langage typé pour plus de robustesse
-- **Tailwind CSS** - Framework CSS utility-first
 - **Angular Material** - Composants UI élégants
 - **RxJS** - Programmation réactive
 
@@ -164,17 +163,6 @@ GET /api/stats/today
 
 > 📖 **Documentation complète** disponible sur `/api` une fois le serveur démarré
 
-## 🎨 Screenshots
-
-### Dashboard Principal
-![Dashboard](https://via.placeholder.com/600x400/1a1a1a/ffffff?text=Dashboard+Principal)
-
-### Gestion des Projets  
-![Projets](https://via.placeholder.com/600x400/1a1a1a/ffffff?text=Gestion+Projets)
-
-### Analytics & Rapports
-![Analytics](https://via.placeholder.com/600x400/1a1a1a/ffffff?text=Analytics+%26+Stats)
-
 ## 🔧 Configuration
 
 ### Variables d'environnement (Backend)
@@ -213,65 +201,19 @@ php bin/console doctrine:migrations:migrate --no-interaction
 ng build --configuration=production
 ```
 
-### Docker (Optionnel)
-```bash
-# Construire et démarrer avec Docker Compose
-docker-compose up -d --build
-```
-
-## 🧪 Tests
-
-### Tests Backend
-```bash
-# Tests unitaires et fonctionnels
-php bin/phpunit
-```
-
-### Tests Frontend
-```bash
-# Tests unitaires
-ng test
-
-# Tests e2e
-ng e2e
-```
-
-## 📈 Roadmap
-
-- [ ] **v1.1** - Export des données (CSV, PDF)
-- [ ] **v1.2** - Notifications temps réel
-- [ ] **v1.3** - Mode hors-ligne (PWA)
-- [ ] **v1.4** - Intégrations (Slack, Discord)
-- [ ] **v1.5** - Mobile app (Ionic)
-
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! 
-
-1. Fork du projet
-2. Créer une branche feature (`git checkout -b feature/amazing-feature`)
-3. Commit des changements (`git commit -m 'Add amazing feature'`)
-4. Push vers la branche (`git push origin feature/amazing-feature`)
-5. Ouvrir une Pull Request
-
 ## 📝 Changelog
 
-### v1.0.0 (2025-01-15)
+### v1.0.0 (30-09-2025)
 - ✨ Interface utilisateur complète
 - 🚀 API REST avec API Platform
 - ⏰ Timer temps réel
 - 📊 Dashboard analytics
 - 🎨 Design responsive moderne
 
-## 📄 License
-
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## 💬 Support
 
-- 📧 Email: [your.email@domain.com](mailto:your.email@domain.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/timetracker/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/timetracker/discussions)
+- 📧 Email: dietschyjulien@gmail.com(mailto:your.email@domain.com)
 
 ---
 
@@ -279,7 +221,7 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 
 **⭐ N'oubliez pas de mettre une étoile si ce projet vous plaît ! ⭐**
 
-Made with ❤️ and ☕ by [Your Name](https://github.com/yourusername)
+Made with ❤️ and ☕ by Perilix(https://github.com/Perilix)
 
 ![Footer](https://img.shields.io/badge/Happy-Coding-brightgreen?style=for-the-badge)
 
