@@ -1,0 +1,23 @@
+<div class="container">
+  <header class="header">
+    <div class="logo">TimeTracker</div>
+    <div class="user-profile">
+      <div class="avatar">JD</div>
+      <span>Dietschy Julien</span>
+    </div>
+  </header>
+
+  <div class="main-grid">
+    <app-timer
+      [currentTimer]="currentTimer"
+      (timerStopped)="onTimerStopped()">
+    </app-timer>
+
+    <app-stats-panel [stats]="stats"></app-stats-panel>
+  </div>
+
+  <app-project-list
+    [projects]="projects"
+    (projectSelected)="onProjectSelected($event)">
+  </app-project-list>
+</div>

@@ -1,0 +1,22 @@
+<div class="current-session">
+  <div class="session-header">
+    <h2>Session actuelle</h2>
+    <div class="status-badge" [class.inactive]="!currentTimer.isRunning">
+      {{ currentTimer.isRunning ? '● En cours' : '○ Inactif' }}
+    </div>
+  </div>
+
+  <div class="timer-display">
+    <div class="timer-time">{{ displayTime }}</div>
+    <div class="current-project" *ngIf="currentTimer.isRunning && currentTimer.project">
+      {{ currentTimer.project.name }}
+    </div>
+    <div class="current-project inactive" *ngIf="!currentTimer.isRunning">
+      Aucun timer actif
+    </div>
+  </div>
+
+  <div class="controls" *ngIf="currentTimer.isRunning">
+    <button class="btn btn-danger" (click)="stopTimer()">⏹️ Stop</button>
+  </div>
+</div>

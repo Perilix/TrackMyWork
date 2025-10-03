@@ -1,0 +1,21 @@
+<div class="recent-projects">
+  <div class="section-header">
+    <h3>🚀 Projets récents</h3>
+  </div>
+
+  <div class="projects-grid">
+    <div class="project-card" *ngFor="let project of projects">
+      <div class="project-color" [style.background]="project.color"></div>
+      <div class="project-name">{{ project.name }}</div>
+      <div class="project-client">{{ project.client || 'Sans client' }}</div>
+      <button class="btn-start" (click)="selectProject(project)">
+        ▶ Démarrer
+      </button>
+    </div>
+
+    <div class="project-card empty" *ngIf="projects.length === 0">
+      <p>Aucun projet disponible</p>
+      <small>Créez votre premier projet via l'API</small>
+    </div>
+  </div>
+</div>

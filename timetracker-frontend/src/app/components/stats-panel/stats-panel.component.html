@@ -1,0 +1,25 @@
+<div class="stats-panel">
+  <h3 class="stats-header">📊 Aujourd'hui</h3>
+
+  <div class="stat-item">
+    <span class="stat-label">Temps total</span>
+    <span class="stat-value">{{ stats?.totalTimeFormatted || '0h 0m' }}</span>
+  </div>
+
+  <div class="stat-item">
+    <span class="stat-label">Projets actifs</span>
+    <span class="stat-value">{{ stats?.activeProjects || 0 }}</span>
+  </div>
+
+  <div class="stat-item">
+    <span class="stat-label">Sessions</span>
+    <span class="stat-value">{{ stats?.sessions || 0 }}</span>
+  </div>
+
+  <div class="stat-item">
+    <span class="stat-label">Efficacité</span>
+    <span class="stat-value" [style.color]="getEfficiencyColor()">
+      {{ stats?.efficiency || 0 }}%
+    </span>
+  </div>
+</div>

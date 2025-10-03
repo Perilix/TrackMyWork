@@ -158,8 +158,8 @@ GET /api/stats/today
 | `GET` | `/api/time_entries` | Entrées de temps |
 | `POST` | `/api/time_entries` | Démarrer un timer |
 | `PATCH` | `/api/time_entries/{id}` | Arrêter/modifier timer |
-| `GET` | `/api/stats/today` | Stats du jour |
-| `GET` | `/api/stats/week` | Stats de la semaine |
+| `GET` | `/api/stats/today` | StatsService du jour |
+| `GET` | `/api/stats/week` | StatsService de la semaine |
 
 > 📖 **Documentation complète** disponible sur `/api` une fois le serveur démarré
 
